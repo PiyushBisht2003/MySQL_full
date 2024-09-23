@@ -33,23 +33,7 @@ userss = [
     ("David Miller", 22, "david.miller@example.com", "HR", 47000.00),
     ("Sophia Wilson", 29, "sophia.wilson@example.com", "Marketing", 53000.00),
     ("Andrew Moore", 33, "andrew.moore@example.com", "Operations", 61000.00),
-    ("Isabella Taylor", 26, "isabella.taylor@example.com", "Legal", 50000.00),
-    ("Ryan Anderson", 38, "ryan.anderson@example.com", "Finance", 72000.00),
-    ("Olivia Thomas", 31, "olivia.thomas@example.com", "IT", 67000.00),
-    ("Benjamin Harris", 23, "benjamin.harris@example.com", "HR", 49000.00),
-    ("Mia Clark", 37, "mia.clark@example.com", "Marketing", 62000.00),
-    ("Daniel Walker", 28, "daniel.walker@example.com", "Operations", 54000.00),
-    ("Grace King", 34, "grace.king@example.com", "Legal", 58000.00),
-    ("Ethan Scott", 25, "ethan.scott@example.com", "IT", 53000.00),
-    ("Amelia Hall", 29, "amelia.hall@example.com", "HR", 56000.00),
-    ("Alexander Allen", 36, "alexander.allen@example.com", "Finance", 65000.00),
-    ("Charlotte Wright", 27, "charlotte.wright@example.com", "Marketing", 54000.00),
-    ("Matthew Young", 24, "matthew.young@example.com", "Operations", 50000.00),
-    ("Chloe Adams", 30, "chloe.adams@example.com", "Legal", 59000.00),
-    ("Liam Nelson", 32, "liam.nelson@example.com", "Finance", 62000.00)
-]
-mycursor.executemany(query, userss)
-connection.commit()
+on.commit()
 
 
 
